@@ -1,0 +1,15 @@
+.navbar {
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin: 3.2rem;
+}
+
+.navbar a {
+  color: #222;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    font-size: 3rem;
+  }
+}

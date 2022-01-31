@@ -1,0 +1,62 @@
+.dashboard .dashboard-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard .btn:active {
+  transform: scale(1.05);
+}
+
+.dashboard .dashboard-head .btn {
+  background-color: blue;
+}
+
+.dashboard .table-wrapper {
+  overflow-x: auto;
+  overflow-y: auto;
+  height: 40rem;
+}
+
+.dashboard .table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard th,
+.dashboard td {
+  font-size: 1.8rem;
+  padding: 2.4rem 1rem;
+  width: 100%;
+  min-width: 15rem;
+  text-align: center;
+}
+
+.dashboard th {
+  background-color: #ebebeb;
+}
+
+.dashboard .empty {
+  text-align: center;
+  font-size: 3rem;
+  margin: 3rem;
+}
+
+.dashboard .btn-edit {
+  background-color: orange;
+}
+
+.dashboard .btn-delete {
+  background-color: orangered;
+}
+
+@media screen and (max-width: 600px) {
+  .dashboard th,
+  .dashboard td {
+    font-size: 1.6rem;
+    padding: 2rem 0.5rem;
+    width: 100%;
+    min-width: 8rem; /* media query */
+    text-align: center;
+  }
+}

@@ -1,0 +1,9 @@
+.edit-user .form-wrapper {
+  padding: 6rem;
+}
+
+@media screen and (max-width: 600px) {
+  .edit-user .form-wrapper {
+    padding: 3rem 1rem;
+  }
+}

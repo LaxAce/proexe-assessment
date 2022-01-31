@@ -1,0 +1,9 @@
+.create-user .form-wrapper {
+  padding: 6rem;
+}
+
+@media screen and (max-width: 600px) {
+  .create-user .form-wrapper {
+    padding: 3rem 1rem;
+  }
+}

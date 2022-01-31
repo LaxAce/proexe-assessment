@@ -1,0 +1,84 @@
+form {
+  width: 90%;
+}
+
+.form .input-field {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10rem;
+  text-align: center;
+}
+
+.form input {
+  width: 70%;
+  height: 3.2rem;
+  padding: 1rem;
+  display: block;
+}
+
+.form .error {
+  margin-left: 30%;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  color: crimson;
+}
+
+.form .space {
+  height: 3rem;
+}
+
+.form .btn-wrapper {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.form .btn-cancel {
+  color: crimson;
+  background-color: #fff;
+  border: 1px solid crimson;
+}
+
+.form .btn-submit {
+  background-color: limegreen;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    margin: 0 auto;
+  }
+
+  .form input {
+    width: 100%;
+  }
+
+  .form .input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .form .error {
+    margin-left: 0;
+  }
+
+  .input-field label {
+    width: 100%;
+    text-align: start;
+  }
+
+  .form .btn-wrapper {
+    gap: 0;
+    flex-direction: column-reverse;
+  }
+
+  .form .btn-submit {
+    margin-bottom: 2rem;
+  }
+
+  .form .btn {
+    padding: 1rem 2.8rem;
+  }
+}
